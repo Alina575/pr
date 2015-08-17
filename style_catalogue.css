@@ -1,0 +1,42 @@
+	body {
+	background: white url("Mobile1.jpg") repeat fixed 50% 50%;
+	}
+
+	a.exit{
+	font: bold 130% arial;
+	color: black;
+	}
+	
+	
+	h1{
+	font: 250% verdana;
+	text-align: left top;
+	color: black;
+	padding: 0% 0% 0% 5%
+	}
+
+	
+	h2{
+    border: 5px ridge #292929;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 30px;
+	border-bottom-left-radius: 0;
+	}
+	
+	#col1 {
+	float:  left;
+	width: 30%;
+	}
+	
+	#col2 {
+	float:  left;
+	width: 30%;
+	}
+	
+	#col3 {
+	float:  left;
+	width: 30%;
+	}
+
+	

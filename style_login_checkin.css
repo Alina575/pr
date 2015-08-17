@@ -1,0 +1,65 @@
+	body {
+		background: white url("Mobile1.jpg") repeat fixed 50% 50%;
+		margin: 50px 35% 10px 35%
+	}
+
+	
+	h1 {
+	text-shadow: 1px 1px 0 orange,
+               1px -1px 0 red,
+               -1px 1px 0 orange,
+              -1px -1px 0 blue;
+	font: 50px verdana;
+	text-align: center;
+	color: black;
+	background: none;
+	padding: 1% 1% 1% 1%
+	font-variant: small-caps;
+	}
+	
+	ul{
+	background: none;
+	font: 25px verdana;
+	color: black;
+}
+	
+
+	li{
+	text-shadow: 2px 3px 1px silver,
+               -1px 1px 1px silver;
+	color: black;
+	border: 4px outset orange;
+	margin: 10px 10% 10px 10%
+
+}
+
+	li:hover {
+    text-shadow: 1px 1px 0 yellowgreen,
+                 1px -1px 0 yellowgreen,
+                 -1px 1px 0 yellowgreen,
+                -1px -1px 0 yellowgreen;
+	}
+				
+	a{
+	font: bold 20px verdana;
+	color: black;
+	}
+	
+	a:hover {
+	letter-spacing: 5px;
+	font-weight:bold;
+	color:red;
+	}
+	
+	p{
+	font-weight: bold;
+	margin: 30px 10% 10px 77%
+	}
+	
+	
+	h3 {font-family: "Times New Roman", serif; font-style: italic;}
+	
+	table{background: #66FF99 no-repeat scroll right bottom;}
+
+
+	
