@@ -1,10 +1,17 @@
 	body {
-	background: white url("Mobile1.jpg") repeat fixed 50% 50%;
+	background: white url("Pictures/Mobile2.jpg") repeat scroll 50% 50%;
 	}
 
+	
 	a.exit{
-	font: bold 130% arial;
+	font: bold 27px arial;
 	color: black;
+	}
+	
+	a.exit:hover {
+	letter-spacing: 5px;
+	font-weight: bold;
+	color: red;
 	}
 	
 	
@@ -22,21 +29,29 @@
 	border-top-right-radius: 0;
 	border-bottom-right-radius: 30px;
 	border-bottom-left-radius: 0;
+	margin: 3% 15% 7% 15%;
+	}
+	
+	p{
+	font: bold 100% arial;
 	}
 	
 	#col1 {
 	float:  left;
-	width: 30%;
+	width: 25%;
+	padding: 0% 0% 0% 10%
 	}
 	
 	#col2 {
 	float:  left;
-	width: 30%;
+	width: 25%;
 	}
 	
 	#col3 {
 	float:  left;
-	width: 30%;
+	width: 25%;
+	padding: 0% 10% 0% 0%
+
 	}
 
-	
+

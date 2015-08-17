@@ -1,0 +1,52 @@
+	body {
+	background: white url("Pictures/Mobile2.jpg") repeat scroll 50% 50%;
+	}
+
+	
+	a.exit{
+	font: bold 27px arial;
+	color: black;
+	}
+	
+	a.exit:hover {
+	letter-spacing: 5px;
+	font-weight: bold;
+	color: red;
+	}
+	
+	
+	h1{
+	font: 250% verdana;
+	text-align: left top;
+	color: black;
+	padding: 0% 0% 0% 5%
+	}
+
+	#pic {
+	float:left;
+	width: 250px;
+	padding: 0% 0% 0% 20%
+	}
+	
+	p{
+	font: 200% Georgia;
+	color: black;
+	padding: 0% 0% 0% 10%
+	}
+	
+	h2{
+	font: bold 150% Verdana;
+	text-align: center;
+	color: black;
+	padding: 30px 0% 0% 0%;
+	}
+	
+	h3{
+	font: bold 30 Verdana;
+	color: gray;
+	text-align: center;
+	}
+	
+	h4{
+	padding: 0px 3% 40px 60%;
+	}
