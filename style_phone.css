@@ -15,6 +15,13 @@
 	}
 	
 	
+	textarea[name="comment"] {
+    border: 2px solid black;
+    border-radius: 2px;
+	}
+
+	
+	
 	h1{
 	font: 250% verdana;
 	text-align: left top;
