@@ -1,0 +1,145 @@
+	body {
+	background: white url("Pictures/Mobile2.jpg") repeat scroll 50% 50%;
+	}
+
+	a.logincheckin{
+	font: bold 19px arial;
+	color: black;
+	}
+	
+		
+	a.logincheckin:hover {
+	letter-spacing: 2px;
+	font-weight: bold;
+	color: red;
+	}
+	
+	
+	ul{
+	background: none;
+	font: bold 25px verdana;
+	text-align: left;
+}
+
+	li{
+	text-shadow: 2px 3px 1px silver,
+               -1px 1px 1px silver;
+	color: black;
+	margin: 10px 40% 10px 40%;
+}
+	
+	
+	h1{
+	font: 250% verdana;
+	text-align: left top;
+	color: black;
+	padding: 0% 0% 0% 5%;
+	text-shadow:0 0 3px #ff0;
+	}
+
+
+	h3{
+	font: bold 150% Verdana;
+	text-align: center;
+	color: black;
+	padding: 1% 10% 10% 10%;
+	}
+
+	h6{
+	font: 15px Arial;
+	text-align: center;
+	margin: 300px 0px 0px 0px;
+	}
+	
+
+	#c1{
+	color: red;
+	}
+
+	
+	h2.catalogue{
+    border: 3px ridge #292929;
+	margin: 3% 15% 7% 15%;
+	}
+		
+	
+	input.adv[type="text"],textarea.adv[name="comment"] {
+	font: 20px verdana;
+    border: 2px solid black;
+    border-radius: 2px;
+	}
+
+	
+	advertisement{
+		text-align: center;
+	}
+	
+	p.catalogue{
+	font: bold 100% arial;
+	}
+	
+	
+	img.catalogue{
+	border: 3px groove #e3e3e3;
+	}
+	
+	
+	#col1 {
+	float: left;
+	width: 25%;
+	padding: 0% 0% 0% 10%;
+	}
+	
+	#col2 {
+	float: left;
+	width: 25%;
+	}
+	
+	#col3 {
+	float: left;
+	width: 25%;
+	padding: 0% 10% 0% 0%;
+	}
+
+	#pic {
+	float:left;
+	width: 250px;
+	margin: 0% 3% 0% 20%;
+	border: 3px solid black;
+	}
+	
+	
+	textarea.phone[name="comment"] {
+    border: 2px solid black;
+    border-radius: 2px;
+	}
+
+	
+	p.phone{
+	font: 180% Georgia;
+	color: black;
+	padding: 0% 0% 0% 10%;
+	}
+
+	p.phone{
+	font: 180% Georgia;
+	color: black;
+	padding: 0% 0% 0% 10%;
+	}
+	
+	h2.phone{
+	font: bold 150% Verdana;
+	text-align: center;
+	color: black;
+	padding: 30px 0% 0% 0%;
+	}
+	
+	h3.phone{
+	font: bold 30 Verdana;
+	color: gray;
+	text-align: center;
+	}
+	
+	h4.phone{
+	margin: 1px 35% 100px 55%;
+	}

@@ -22,45 +22,31 @@
 	
 	
 	input[type="text"] {
+	font: 15px verdana;
+    border: 2px solid black;
+    border-radius: 2px;
+	}
+	
+	input[type="password"] {
+	font: 15px verdana;
     border: 2px solid black;
     border-radius: 2px;
 	}
 	
 	
 	h2{
-	margin: 0px 30px 0px 30px;
-
-	}
-
-	
-	ul{
-	text-align: cener;
-	font: 25px verdana;
+	margin: 5px 0px 0px 50px;
+	font: 30px verdana;
 	color: gray;
-}
+	}
+
 	
-
-	li{
-	text-shadow: 2px 3px 1px silver,
-               -1px 1px 1px silver;
-	color: black;
-	border: 4px outset orange;
-	margin: 10px 10% 10px 10%;
-
-}
-
-	li:hover {
-    text-shadow: 1px 1px 0 yellowgreen,
-                 1px -1px 0 yellowgreen,
-                 -1px 1px 0 yellowgreen,
-                -1px -1px 0 yellowgreen;
-	}
-				
 	a{
-	font: bold 20px verdana;
+	font: bold 18px verdana;
 	color: black;
-	margin: 0px 1px 10px 50px;
+	padding: 20px 1px 0px 50px;
 	}
+	
 	
 	a:hover {
 	letter-spacing: 5px;
@@ -68,14 +54,12 @@
 	color:red;
 	}
 	
+	
 	p{
 	font-weight: bold;
 	margin: 30px 10% 10px 77%;
 	}
-	
-	
-	
-	table{background: #66FF99 no-repeat scroll right bottom;}
+
 
 
 	
