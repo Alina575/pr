@@ -2,13 +2,13 @@
 	background: white url("Pictures/Mobile2.jpg") repeat scroll 50% 50%;
 	}
 
-	a.logincheckin{
+	a.loginregister{
 	font: bold 19px arial;
 	color: black;
 	}
 	
 		
-	a.logincheckin:hover {
+	a.loginregister:hover {
 	letter-spacing: 2px;
 	font-weight: bold;
 	color: red;
@@ -33,7 +33,7 @@
 	font: 250% verdana;
 	text-align: left top;
 	color: black;
-	padding: 0% 0% 0% 5%;
+	padding: 0% 0% 0% 200px;
 	text-shadow:0 0 3px #ff0;
 	}
 
@@ -45,6 +45,18 @@
 	padding: 1% 10% 10% 10%;
 	}
 
+	
+	h4.adv{
+	font: bold 150% Verdana;
+	text-align: center;
+	color: black;
+	}
+
+	p.adv{
+		font: bold 150% Verdana;
+	}
+	
+	
 	h6{
 	font: 15px Arial;
 	text-align: center;
@@ -66,7 +78,7 @@
 	input.adv[type="text"],textarea.adv[name="comment"] {
 	font: 20px verdana;
     border: 2px solid black;
-    border-radius: 2px;
+    border-radius: 3px;
 	}
 
 	
@@ -114,17 +126,11 @@
     border-radius: 2px;
 	}
 
-	
-	p.phone{
-	font: 180% Georgia;
-	color: black;
-	padding: 0% 0% 0% 10%;
-	}
 
 	p.phone{
-	font: 180% Georgia;
+	font: 160% Times New Roman;
 	color: black;
-	padding: 0% 0% 0% 10%;
+	padding: 0% 0% 0% 20%;
 	}
 	
 	h2.phone{
@@ -142,4 +148,98 @@
 	
 	h4.phone{
 	margin: 1px 35% 100px 55%;
+	}
+	
+	
+.fileform { 
+	background-color: #FFFFFF;
+    border: 2px solid black;
+    border-radius: 3px;
+    cursor: pointer;
+    height: 26px;
+    overflow: hidden;
+    padding: 2px;
+    position: relative;
+    text-align: center;
+	left: 560px;
+    vertical-align: middle;
+    width: 200px;
+}
+ 
+.fileform .selectbutton { 
+    background-color: black;
+    border: 1px solid #939494;
+    border-radius: 2px;
+    color: #FFFFFF;
+    float: right;
+    font-size: 13px;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    padding: 2px 6px;
+    text-align: center;
+    vertical-align: middle;
+    width: 50px;
+}
+ 
+.fileform #upload{
+    position:absolute; 
+    top:0; 
+    left:0; 
+    width:100%; 
+    -moz-opacity: 0; 
+    filter: alpha(opacity=0); 
+    opacity: 0; 
+    font-size: 10px; 
+    height: 30px; 
+    z-index:20;
+}
+
+	#pi {
+	position: absolute;
+	left: 350px;
+	top: 350px;
+	z-index: 1;
+	}
+
+	#pict {
+	position: absolute;
+	left: 20px;
+	top: 5px;
+	z-index: 1;
+	}
+
+	#pic1 {
+	position: absolute;
+	left: 300px;
+	top: 200px;
+	z-index: 1;
+	}
+
+	#pic2 {
+	position: absolute;
+	left: 315px;
+	top: 215px;
+	z-index: 2;
+	}
+
+	#pic3 {
+	position: absolute;
+	left: 130px;
+	top: 130px;
+	z-index: 3;
+	}
+
+	#pic4 {
+	position: absolute;
+	left: 145px;
+	top: 145px;
+	z-index: 4;
+	}
+
+	#pic5 {
+	position: absolute;
+	left: 160px;
+	top: 160px;
+	z-index: 5;
 	}
