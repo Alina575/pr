@@ -16,16 +16,22 @@
 	
 	
 	ul{
-	background: none;
-	font: bold 25px verdana;
+	font: bold 30px verdana;
 	text-align: left;
 }
 
-	li{
+	li.main{
 	text-shadow: 2px 3px 1px silver,
                -1px 1px 1px silver;
 	color: black;
-	margin: 10px 40% 10px 40%;
+	margin: 0px 40% 15px 40%;
+}
+	
+	li.faq{
+	text-shadow: 2px 3px 1px silver,
+               -1px 1px 1px silver;
+	color: black;
+	margin: 0px 12% 15px 12%;
 }
 	
 	
@@ -69,22 +75,78 @@
 	}
 
 	
-	h2.catalogue{
-    border: 3px ridge #292929;
-	margin: 3% 15% 7% 15%;
-	}
-		
-	
 	input.adv[type="text"],textarea.adv[name="comment"] {
 	font: 20px verdana;
     border: 2px solid black;
     border-radius: 3px;
 	}
 
+	#newline{
+	text-indent: 30%;
+	}
 	
 	advertisement{
 		text-align: center;
 	}
+		
+		/*Поиск по каталогу*/
+	input,button,textarea {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    display: inline-block;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+
+input[type="text"] {
+    -moz-box-shadow: inset 0 2px 3px rgba(0,0,0,0.13);
+    -webkit-box-shadow: inset 0 2px 3px rgba(0,0,0,0.13);
+    box-shadow: inset 0 2px 3px rgba(0,0,0,0.13);
+    height: 30px;
+    border: 1px solid #ccc;
+    padding: 0 4px;
+}
+
+button {
+    background-color: #ddd;
+    background-image: -moz-linear-gradient(top, #f5f5f5, #ddd);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f5f5f5), to(#ddd));
+    background-image: -webkit-linear-gradient(top, #f5f5f5, #ddd);
+    background-image: -o-linear-gradient(top, #f5f5f5, #ddd);
+    background-image: linear-gradient(to bottom, #f5f5f5, #ddd);
+    background-repeat: repeat-x;
+    height: 25px;
+    padding: 0 10px;
+    -webkit-box-shadow: 0 3px 3px rgba(0,0,0,0.13);
+    -moz-box-shadow: 0 3px 3px rgba(0,0,0,0.13);
+    box-shadow: 0 3px 3px rgba(0,0,0,0.13);
+    border: 1px solid #c7c7c7;
+    font-size: 12px;
+    line-height: 12px;
+    cursor: pointer;
+}
+
+button.green {
+    background-color: #41b039;
+    background-image: -moz-linear-gradient(top, #4ecf44, #41b039);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#4ecf44), to(#41b039));
+    background-image: -webkit-linear-gradient(top, #4ecf44, #41b039);
+    background-image: -o-linear-gradient(top, #4ecf44, #41b039);
+    background-image: linear-gradient(to bottom, #4ecf44, #41b039);
+    border: 0;
+    color: white;
+}
+
+
+
+		
+	h2.catalogue{
+    border: 3px ridge #292929;
+	margin: 3% 15% 7% 15%;
+	}
+	
 	
 	p.catalogue{
 	font: bold 100% arial;
@@ -125,7 +187,6 @@
     border: 2px solid black;
     border-radius: 2px;
 	}
-
 
 	p.phone{
 	font: 160% Times New Roman;
@@ -221,25 +282,4 @@
 	left: 315px;
 	top: 215px;
 	z-index: 2;
-	}
-
-	#pic3 {
-	position: absolute;
-	left: 130px;
-	top: 130px;
-	z-index: 3;
-	}
-
-	#pic4 {
-	position: absolute;
-	left: 145px;
-	top: 145px;
-	z-index: 4;
-	}
-
-	#pic5 {
-	position: absolute;
-	left: 160px;
-	top: 160px;
-	z-index: 5;
 	}
