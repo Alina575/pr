@@ -33,10 +33,7 @@
 	color: black;
 	margin: 0px 12% 15px 12%;
 }
-	
-	li.adv{
-	margin: -0px -95% 15px -100%;
-	}
+
 	
 	h1{
 	font: 250% verdana;
@@ -60,7 +57,13 @@
 	text-align: center;
 	color: black;
 	}
-
+	
+	
+	li.adv{
+	margin: -0px -95% 15px -100%;
+	}
+	
+	
 	p.adv{
 		font: bold 150% Verdana;
 	}
@@ -91,6 +94,7 @@
 	advertisement{
 		text-align: center;
 	}
+		
 		
 		/*Поиск по каталогу*/
 	input,button,textarea {
@@ -131,17 +135,49 @@ button {
     cursor: pointer;
 }
 
-button.green {
-    background-color: #41b039;
-    background-image: -moz-linear-gradient(top, #4ecf44, #41b039);
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#4ecf44), to(#41b039));
-    background-image: -webkit-linear-gradient(top, #4ecf44, #41b039);
-    background-image: -o-linear-gradient(top, #4ecf44, #41b039);
-    background-image: linear-gradient(to bottom, #4ecf44, #41b039);
-    border: 0;
-    color: white;
+input[type="text"]:focus {
+    outline: none;
 }
 
+button:hover {
+    background-position: 0 -25px;
+}
+
+h2.header{
+		text-indent: 200px;
+
+}
+
+.description {
+    color: #999;
+    font-size: 13px;
+    line-height: 12px;
+}
+
+.block.search form {
+    position: relative;
+	margin: 7px 400px 30px 200px;
+}
+
+.block.search form>input {
+    width: 100%;
+    padding-right: 57px;
+    margin-bottom: 4px;
+}
+
+.block.search form>button {
+    position: absolute;
+    right: 4px;
+    top: 5px;
+    height: 20px;
+    font-size: 11px;
+    line-height: 11px;
+    box-shadow: none;
+}
+
+.block.search .description {
+    margin-bottom: 0;
+}
 
 
 		
