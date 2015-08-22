@@ -204,20 +204,28 @@ h2.header{
 	
 	#col1 {
 	float: left;
-	width: 25%;
-	padding: 0% 0% 0% 10%;
+	width: 20%;
+	padding: 0% 0% 17px 150px;
 	}
 	
 	#col2 {
 	float: left;
-	width: 25%;
+	width: 20%;
+	padding: 0% 0% 17px 0%;
 	}
 	
 	#col3 {
 	float: left;
-	width: 25%;
-	padding: 0% 10% 0% 0%;
+	width: 20%;
+	padding: 0% 0% 17px 0%;
 	}
+
+	#col4 {
+	float: left;
+	width: 20%;
+	padding: 0% 100px 17px 0%;
+	}
+	
 
 	#pic {
 	float:left;
