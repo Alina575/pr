@@ -60,17 +60,17 @@
 	text-align: center;
 	color: black;
 	}
-	
-	
-	li.adv{
-	margin: -0px -95% 15px -100%;
-	}
-	
+
 	
 	p.adv{
 		font: bold 150% Verdana;
+		text-align: center;
 	}
 	
+	
+	a.adv{
+	text-align: center;
+	}
 	
 	h6{
 	font: 15px Arial;
@@ -92,10 +92,6 @@
 
 	#newline{
 	text-indent: 30%;
-	}
-	
-	advertisement{
-		text-align: center;
 	}
 		
 		
@@ -181,7 +177,6 @@ h2.header{
 .block.search .description {
     margin-bottom: 0;
 }
-
 
 		
 	h2.catalogue{
