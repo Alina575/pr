@@ -229,7 +229,6 @@ h2.header{
 	border: 3px solid black;
 	}
 	
-	
 	textarea.phone[name="comment"] {
     border: 2px solid black;
     border-radius: 2px;
@@ -249,15 +248,48 @@ h2.header{
 	}
 	
 	h3.phone{
-	font: bold 30 Verdana;
+	font: bold 30px Verdana;
 	color: gray;
 	text-align: center;
 	}
 	
-	h4.phone{
-	margin: 1px 35% 100px 55%;
+	table{
+	padding: 40px 0% 0% 0%;
+	}
+
+	h4.comment{
+	font: bold 21px Times New Roman;
 	}
 	
+	
+	p.ph{
+	text-align: center;	
+	}
+
+	
+	h4.usercomment{
+	line-height:0.4;
+	text-align : center;
+	color: #05F2FF;
+	font-family: Avantgarde, CenturyGothic, "AppleGothic", sans-serif;
+	font-size: 15px;
+	text-align: center;
+	text-shadow: 
+      1px -1px 0 #767676, 
+      -1px 2px 1px #737272, 
+      -2px 4px 1px #767474, 
+      -3px 6px 1px #787777, 
+      -4px 8px 1px #7b7a7a, 
+      -5px 10px 1px #7f7d7d, 
+
+	}
+
+	#cmnt{
+	top: 600px;
+	left: 960px;
+	position: absolute;
+}
+
 	
 .fileform { 
 	background-color: #FFFFFF;
@@ -314,7 +346,6 @@ h2.header{
 	position: absolute;
 	left: 20px;
 	top: 5px;
-	z-index: 1;
 	}
 
 	#pic1 {
