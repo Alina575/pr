@@ -6,12 +6,16 @@
 	font: bold 19px arial;
 	color: black;
 	}
-	
 		
 	a.loginregister:hover {
 	letter-spacing: 2px;
 	font-weight: bold;
 	color: red;
+	}
+	
+	a.returntomain{
+	   text-decoration: underline;
+	   	color: black;
 	}
 	
 	p.logreg{
