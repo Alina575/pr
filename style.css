@@ -267,6 +267,25 @@ h2.header{
 	text-align: center;
 	}
 	
+	
+	a.editdelete{
+	font: bold 19px arial;
+	color: brown;
+	}
+	
+		
+	a.editdelete:hover {
+	letter-spacing: 1px;
+	font-weight: bold;
+	color: red;
+	}
+
+	
+	p.editdelete{
+	padding: 0% 20% 0% 60%;
+
+	}
+	
 	table{
 	padding: 40px 0% 0% 0%;
 	}
